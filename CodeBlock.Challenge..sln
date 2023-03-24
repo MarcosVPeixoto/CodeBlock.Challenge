@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlock.Challenge.Domain"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlock.Challenge.Business", "..\CodeBlock.Challenge.Business\CodeBlock.Challenge.Business.csproj", "{800F18B5-B0C1-49E0-9B93-4950062D6809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBlock.Challenge.IBusiness", "..\CodeBlock.Challenge.IBusiness\CodeBlock.Challenge.IBusiness.csproj", "{64FE4DBA-CE1B-459D-B7DA-4FBE82AB42F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlock.Challenge.IBusiness", "..\CodeBlock.Challenge.IBusiness\CodeBlock.Challenge.IBusiness.csproj", "{64FE4DBA-CE1B-459D-B7DA-4FBE82AB42F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBlock.Challenge.Repository", "..\CodeBlock.Challenge.Repository\CodeBlock.Challenge.Repository.csproj", "{171529FD-FA3A-4A03-9E36-FFB7C1DAB90A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlock.Challenge.Repository", "..\CodeBlock.Challenge.Repository\CodeBlock.Challenge.Repository.csproj", "{171529FD-FA3A-4A03-9E36-FFB7C1DAB90A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBlock.Challenge.IRepository", "..\CodeBlock.Challenge.IRepository\CodeBlock.Challenge.IRepository.csproj", "{9B6E2C9F-DBF7-4F07-A547-4E0A2F503C07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBlock.Challenge.IRepository", "..\CodeBlock.Challenge.IRepository\CodeBlock.Challenge.IRepository.csproj", "{9B6E2C9F-DBF7-4F07-A547-4E0A2F503C07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

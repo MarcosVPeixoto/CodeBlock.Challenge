@@ -7,12 +7,43 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CodeBlock.Challenge.Business\**" />
+    <Compile Remove="CodeBlock.Challenge.Domain\**" />
+    <Compile Remove="CodeBlock.Challenge.IBusiness\**" />
+    <Compile Remove="CodeBlock.Challenge.IRepository\**" />
+    <Compile Remove="CodeBlock.Challenge.Repository\**" />
+    <Content Remove="CodeBlock.Challenge.Business\**" />
+    <Content Remove="CodeBlock.Challenge.Domain\**" />
+    <Content Remove="CodeBlock.Challenge.IBusiness\**" />
+    <Content Remove="CodeBlock.Challenge.IRepository\**" />
+    <Content Remove="CodeBlock.Challenge.Repository\**" />
+    <EmbeddedResource Remove="CodeBlock.Challenge.Business\**" />
+    <EmbeddedResource Remove="CodeBlock.Challenge.Domain\**" />
+    <EmbeddedResource Remove="CodeBlock.Challenge.IBusiness\**" />
+    <EmbeddedResource Remove="CodeBlock.Challenge.IRepository\**" />
+    <EmbeddedResource Remove="CodeBlock.Challenge.Repository\**" />
+    <None Remove="CodeBlock.Challenge.Business\**" />
+    <None Remove="CodeBlock.Challenge.Domain\**" />
+    <None Remove="CodeBlock.Challenge.IBusiness\**" />
+    <None Remove="CodeBlock.Challenge.IRepository\**" />
+    <None Remove="CodeBlock.Challenge.Repository\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
+    <PackageReference Include="PagedList" Version="1.17.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="CodeBlock.Challenge.Business\CodeBlock.Challenge.Business.csproj" />
+    <ProjectReference Include="CodeBlock.Challenge.Domain\CodeBlock.Challenge.Domain.csproj" />
+    <ProjectReference Include="CodeBlock.Challenge.IBusiness\CodeBlock.Challenge.IBusiness.csproj" />
+    <ProjectReference Include="CodeBlock.Challenge.IRepository\CodeBlock.Challenge.IRepository.csproj" />
+    <ProjectReference Include="CodeBlock.Challenge.Repository\CodeBlock.Challenge.Repository.csproj" />
   </ItemGroup>
 
 </Project>
